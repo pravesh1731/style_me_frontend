@@ -9,7 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
-dist-ssr
+dist-sgit commit -m "first commit"sr
 *.local
 
 # Editor directories and files

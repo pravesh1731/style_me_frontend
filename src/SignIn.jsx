@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   return (
-    <div className="min-h-screen bg-[#f5f5f5] flex items-center justify-center p-6 ">
+    <div className="min-h-screen bg-[#f5f5f5] flex items-center justify-center p-6">
       <div className="bg-white rounded-3xl p-8 shadow-xl">
         <div className="text-center mb-8">
           <h2 className="text-3xl mb-5 font-serif">STYLE-ME</h2>
@@ -139,7 +140,7 @@ const SignIn = () => {
           Continue with Apple
         </button>
         <p className="text-center mt-6 text-gray-400 ">
-          Don't have an account? <span className="text-black cursor-pointer hover:underline">Sign up for free</span>
+          Don't have an account? <span className="text-black cursor-pointer hover:underline"><Link to="/signup" >Sign up for free</Link></span>
         </p>
       </div>
     </div>
